@@ -9,6 +9,7 @@ export class CollapseContainerComponent {
 
   @Input() collapsed = false;
   @Input() disabled = false;
+  @Input() hideTooltip = false;
   @Input() sectionName = 'this';
   @Output() collapsedChange = new EventEmitter<boolean>();
 
